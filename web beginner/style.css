@@ -1,0 +1,96 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body{
+  background: #f4f4f4;
+}
+
+/* Header */
+header{
+  background: #ff4d6d;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Container */
+.container{
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  padding: 40px;
+  flex-wrap: wrap;
+}
+
+/* Boxes */
+.form-box,
+.result-box{
+  width: 400px;
+  background: white;
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Titles */
+h2{
+  margin-bottom: 20px;
+  color: #ff4d6d;
+}
+
+/* Inputs */
+input,
+textarea{
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 15px;
+  border-radius: 10px;
+  border: 1px solid #ccc;
+  font-size: 15px;
+}
+
+/* Textarea */
+textarea{
+  height: 100px;
+  resize: none;
+}
+
+/* Button */
+button{
+  width: 100%;
+  padding: 12px;
+  background: #ff4d6d;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Button Hover */
+button:hover{
+  background: #e63956;
+}
+
+/* Profile Card */
+.card{
+  background: #ffe5ec;
+  padding: 15px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+/* Profile Title */
+.card h3{
+  color: #d6336c;
+  margin-bottom: 10px;
+}
+
+/* Profile Text */
+.card p{
+  margin-bottom: 5px;
+}

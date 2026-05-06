@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Love Connect</title>
+
+  <!-- Connect CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header>
+    <h1>Love Connect</h1>
+  </header>
+
+  <!-- Main Container -->
+  <div class="container">
+
+    <!-- Form Section -->
+    <div class="form-box">
+
+      <h2>Create Your Profile</h2>
+
+      <input type="text" id="name" placeholder="Your Name">
+
+      <input type="number" id="age" placeholder="Your Age">
+
+      <input type="text" id="hobby" placeholder="Your Hobby">
+
+      <textarea id="about" placeholder="About Yourself"></textarea>
+
+      <button onclick="saveProfile()">
+        Submit
+      </button>
+
+    </div>
+
+    <!-- Profile Section -->
+    <div class="result-box">
+
+      <h2>Saved Profiles</h2>
+
+      <div id="profiles"></div>
+
+    </div>
+
+  </div>
+
+  <!-- Connect JavaScript -->
+  <script src="script.js"></script>
+
+</body>
+</html>
